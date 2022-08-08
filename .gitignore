@@ -1,0 +1,6 @@
+public
+resources
+themes/hugo-geekdoc
+content/repos/**/*
+vendor
+.hugo_build.lock

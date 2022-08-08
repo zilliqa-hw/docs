@@ -1,0 +1,35 @@
+---
+baseUrl: "https://zilliqa-hw.github.io"
+buildDrafts: false
+title: "Zilliqa Homework Tech Docs"
+theme: "hugo-geekdoc"
+languageCode: "en-us"
+pluralizeListTitles: false
+
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+disablePathToLower: true
+#enableGitInfo: true
+
+# Needed for mermaid shortcode
+markup:
+  goldmark:
+    renderer:
+      # Needed for mermaid shortcode
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 9
+
+params:
+  geekdocToC: 3
+  geekdocLogo: zilliqa-logo.png
+
+  geekdocSearch: true
+  geekdocSearchShowParent: true
+
+  geekdocRepo: "https://github.com/zilliqa-hw/docs"
+  geekdocEditPath: -/edit/main/content
+
+  geekdocImageLazyLoading: true
+  geekdocDarkModeDim: true
