@@ -54,8 +54,6 @@ jobs:
           fi
       - name: Build with Hugo
         run: |
-          ls -l
-          pwd
           hugo \
             --cleanDestinationDir \
             --minify \

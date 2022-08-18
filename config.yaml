@@ -1,5 +1,5 @@
 ---
-baseUrl: "https://zilliqa-hw.github.io"
+baseUrl: "https://zilliqa-hw.github.io/docs"
 buildDrafts: false
 title: "Zilliqa Homework Tech Docs"
 theme: "hugo-geekdoc"
